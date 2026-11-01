@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
 
 });
 
-/* POST submit */
+/* POST */
 router.post('/submit', function(req, res, next) {
 
     let name = req.body.name;
